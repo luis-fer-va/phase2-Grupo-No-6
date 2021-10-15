@@ -26,7 +26,23 @@ Roles:
     
  Update a cargo del estudiante
    Stiven
+  
+  
+ Realizado bajo un servidor local XAMPP
+ 
+ Gestor de base de datos: PHPMYADMIN
+ 
+ Lenguaje de programación: PHP y Javascript
+ 
+ Lenguaje de base de datos: SQL
+ 
+ Frameworks utilziados:
+   Jquery
+   Bootstrap
    
+ Conexiones a la base de datos:
+  Mysqli
+  PDO
   
   
 Un trabajo realizado con demasiado pasión, en equipo, trasnochos, investigación y amor.
