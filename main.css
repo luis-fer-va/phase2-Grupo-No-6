@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #181818;
+    color: #ffffff;
+    padding:0 1.5em;
+}
+.content{
+    max-width: 1170px;
+    margin-left:auto ;
+    margin-right: auto;
+    padding: 1.5em;}
+    .logo{
+        text-align: center;
+        font-size:3em; 
+        animation:pulse; 
+        animation-duration:1s;
+    }
+    .logo span{
+        color: #b70e21;
+    }
+    .contact_wrapper{
+        box-shadow:0 0 20px rgba(255,255,255,.3);
+    }
+    .contact_wrapper > *{
+        padding:1em;
+    }
+    .contact-form{
+        background-color:#222222;
+        min-height: 30em;
+    }
+    .contact-form form p{
+        margin: 0;
+        padding: 1em;
+    }
+    .contact-form form{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .contact-form form .block{
+        grid-column: 1/3;
+    }
+    .contact-form form button,
+    .contact-form form input,
+    .contact-form form textarea,
+    .contact-form form select
+ {
+        width: 100%;
+        padding: .7em;
+        border:none;
+        outline: none;
+        background:none;
+        color: #ffffff;
+        border-bottom: 1px solid #d63031;
+        resize: none;}
+        .contact-form form textarea {
+            height: 5em;
+        }
+       
+     .file{
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 auto 0;
+        min-height: 15px;
+        overflow: hidden;
+        padding: 10px;
+        position: relative;
+        text-align: left;
+     }
+        .contact-form form option {
+            background-color: #222222;
+        }
+    
+    .contact-form form input[type="submit"]{
+        background: #b70e21;
+        border: 0;
+        padding:1em;
+        transition: background-color 1s ease-out;
+        outline:0;
+
+    }
+
+    .contact-form form input[type="submit"]:hover,.contact-form input[type="submit"]:focus{
+        background-color:#d53031;
+        color: #ffffff;
+        letter-spacing:2px;
+    }
+    .btn,  .return{
+        background-color:#6ec926;
+        color: white;
+        outline:0;
+        padding:1em;
+        display:grid;
+        grid-template-columns: repeat(2/1fr);
+        font-size:1em;
+        border: none;
+        display: inline-block;
+        margin-bottom: 2em;
+        animation:pulse; 
+        animation-duration:1s;
+    }
+    .btn-none{
+        background-color:#b70e21;
+    }
+    .return{
+        background-color:#2667c9;
+        text-decoration: none;
+    }
+    table {
+       
+        border-collapse: collapse;
+        width: 100%;
+        box-shadow:0 0 20px rgba(255,255,255,.3)
+      }
+      
+      td, th {
+        border: 1px solid #f2f2f2;
+        text-align: left;
+        padding: 0.5em;
+        letter-spacing: 1px;
+        text-align: center;
+      }
+      th{
+          background-color:#2667c9;
+          font-size: 0.9rem;
+          text-align: center;
+      }
+      
+   
+      .Insert{
+          text-align: center;
+          color: #b70e21;   
+          animation:pulse;
+          animation-duration: 1s;
+      }
+      td img{
+  
+          width: 200px;
+          height: 300px;
+          object-fit: contain;
+          transition: all linear;
+      }
+      td img:hover{
+
+animation: pulse;
+animation-duration: 1s;
+cursor:pointer;
+
+      }

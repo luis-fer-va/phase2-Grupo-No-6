@@ -1,0 +1,46 @@
+*{
+      font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+.logo{
+  text-align: center;
+  font-size:3em; 
+  animation:pulse; 
+  animation-duration:1s;
+  color: #4D4D4D;
+}
+body{
+  background-color:#E3E3E3;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  background-color:#F3F3F3;
+  height:30em ;
+
+}
+.items{
+  background-color:#FFFFFF;
+  border-radius: 0.5em;
+  width: 60%;
+  margin: 0 auto;
+  padding:1em;
+}
+a{
+  background-color:#4472C4;
+  color: #ffffff;
+  display: block;
+  padding:1em;
+  line-height:2em;
+  margin: 1em;
+  text-decoration:none;
+  font-size:1.2em;
+
+}
+a:hover,a:focus{
+ 
+  animation: pulse;
+  animation-duration: 0.2s;
+  text-align: center;
+  color: black;
+}
