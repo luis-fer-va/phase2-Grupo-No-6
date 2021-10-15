@@ -21,8 +21,8 @@
     <h1 class="logo">Products</h1>
     <div class="items">
         <a href="index_create_luis_vallejo.php" class="item">Add Products Here!!</a>
-        <a href="index-DanielVega.php" class="item">Look and Delete your Products Here!!</a>
-        <a href="#" class="item">Edit Your products</a>
+        <a href="index-DanielVega-Stiven.php" class="item">Look and Delete and Update your Products Here!!</a>
+
     </div>
 
     </div>

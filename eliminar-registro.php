@@ -15,7 +15,7 @@ if(isset($_POST['activo'])){
     if ($sql_del){
     	echo 'Enhorabuena :), te informamos que el producto <b>', $name, '</b>, ha sido eliminado. <br/>';
     	echo '<font color="orange">Para que vea el producto eliminado, actualice el panel.</font>';
-		echo "<META HTTP-EQUIV='Refresh' CONTENT='04; URL=index.php'>";
+		echo "<META HTTP-EQUIV='Refresh' CONTENT='04; URL=index-DanielVega.php'>";
     }
 }
 else{

@@ -125,6 +125,7 @@
 
 											<button type="button" class="btn btn-danger openBtnEli<?php echo $id; ?>" id="div-eli">Elimar</button>
 
+											<button type="button" class="btn openBtnEdit<?php echo $id; ?>" id="div-edi">Editar</button>
 											
 										</td>
 									</tr>
@@ -153,6 +154,22 @@
 	    </div>
 	</div>
 
+
+	<div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog" id="edicion-est">
+	        <!-- Modal content-->
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal">x</button>
+	                <h3 class="modal-title">Edici&oacute;n de este establecimiento</h4>
+	            </div>
+	            <div class="modal-body edit">
+
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
 	<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
@@ -169,6 +186,14 @@
     				});
     			});
 			</script>
+
+			<script>
+			$('.openBtnEdit<?php echo $id;?>').on('click',function(){
+			    $('.modal-body.edit').load('editar-registro.php?id=<?php echo $id?>',function(){
+			    $('#myModal').modal({show:true});
+			    });
+			});
+	   </script>
 		<?php } ?>
 
 	<script>
